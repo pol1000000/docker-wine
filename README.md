@@ -1,4 +1,9 @@
-# docker-wine
+# docker + wine + winbox
+
+All changes inside [./winbox-docker](./winbox-docker)
+
+#Original Readme.md
+## docker-wine
 A basic wine container with support for X11 forwarding and matching of user between host - image.
 
 To start the container with a user id matching the current host user:
@@ -12,3 +17,4 @@ For convenience this can also be achieved via:
 Please note that wine has not been initialized in the image. You can do so with:
 
     wineboot --init
+
